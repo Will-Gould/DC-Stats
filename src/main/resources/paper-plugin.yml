@@ -1,0 +1,7 @@
+name: DC-Stats
+version: '1.0-SNAPSHOT'
+main: org.williamg.dcstats.DCStats
+api-version: '1.21'
+authors: [ William G ]
+description: Bespoke plugin for collection relevant gameplay statistic,
+website: mc.decarle.net
