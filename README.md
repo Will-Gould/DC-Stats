@@ -4,7 +4,6 @@ What is aimed to be tracked
    + PvP Kills
  - Miscellaneous
    + Fish caught
-   + Items enchanted
    + Netherite ingots crafted
    + Ender dragons slain
    + withers killed
