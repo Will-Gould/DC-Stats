@@ -1,5 +1,5 @@
 What is aimed to be tracked
- - Comabt
+ - Combat
    + Player Deaths
    + PvP Kills
  - Miscellaneous
