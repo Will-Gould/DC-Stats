@@ -3,7 +3,6 @@ What is aimed to be tracked
    + Player Deaths
    + PvP Kills
  - Miscellaneous
-   + Fish caught
    + Netherite ingots crafted
    + Ender dragons slain
    + withers killed
