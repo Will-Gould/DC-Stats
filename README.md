@@ -3,7 +3,6 @@ What is aimed to be tracked
    + Player Deaths
    + PvP Kills
  - Miscellaneous
-   + Netherite ingots crafted
    + Ender dragons slain
    + withers killed
    + Wardens killed
