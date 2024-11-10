@@ -1,0 +1,16 @@
+package org.williamg.dcstats.utility;
+
+public enum Statistic {
+    ENDER_DRAGONS_KILL,
+    WITHERS_KILLED,
+    WARDENS_KILLED,
+    RAVAGERS_KILLED,
+    EVOKERS_KILLED,
+    PIGLIN_BRUTES_KILLED,
+    GHASTS_KILLED,
+    ELDER_GUARDIANS_KILLED,
+    WITCHES_KILLED,
+    MOBS_KILLED,
+    DIAMONDS_MINED,
+    EMERALDS_MINED
+}
