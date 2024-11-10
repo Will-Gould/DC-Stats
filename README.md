@@ -12,5 +12,6 @@ What is aimed to be tracked
    + Ghasts killed
    + Elder Guardians killed
    + Witches killed
+   + Mobs killed
    + Diamonds Mined
    + Emeralds mined
