@@ -1,4 +1,8 @@
-What is aimed to be tracked
+DC-Stats
+
+A data logging solution for collecting gameplay statistics from Minecraft servers
+
+What is currently tracked
  - Combat
    + Player Deaths
    + PvP Kills
