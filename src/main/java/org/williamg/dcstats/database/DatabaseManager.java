@@ -18,9 +18,7 @@ public class DatabaseManager {
     private final HikariDataSource dataSource;
     private final String prefix;
     private StatsManager statsManager;
-    //private ProfileManager profileManager;
-    //private NameManager nameManager;
-    //private NotesManager notesManager;
+    private AdvancementManager advancementManager;
 
     public DatabaseManager(DCStats plugin, String host, String port, String database, String user, String pass, String prefix) {
         this.plugin = plugin;
@@ -50,6 +48,9 @@ public class DatabaseManager {
 
     public void initialiseStatsManager() {
         this.statsManager = new StatsManager(this.plugin);
+    }
+    public void initialiseAdvancementManager() {
+        this.advancementManager = new AdvancementManager(this.plugin);
     }
 
     public boolean playerRecordExists(Player p) throws SQLException{
@@ -100,6 +101,14 @@ public class DatabaseManager {
             statsManager.processStatistics(playerStats);
         }catch (Exception e){
             this.plugin.getLogger().severe("Failed process statistics");
+        }
+    }
+
+    public void processPlayerAdvancement(Player p, String advancement) {
+        try {
+            this.advancementManager.processPlayerAdvancement(p.getUniqueId().toString(), advancement);
+        } catch (SQLException e) {
+            this.plugin.getLogger().severe("Failed to process advancement " + advancement);
         }
     }
 }

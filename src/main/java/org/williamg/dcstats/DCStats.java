@@ -33,6 +33,7 @@ public final class DCStats extends JavaPlugin {
 
         dbManager = new DatabaseManager(this, sqlHost, sqlPort, sqlDatabase, sqlUser, sqlPassword, prefix);
         dbManager.initialiseStatsManager();
+        dbManager.initialiseAdvancementManager();
 
         playerHandler = new PlayerHandler(this);
 
